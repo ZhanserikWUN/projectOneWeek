@@ -1,0 +1,19 @@
+Here is the modified code to display the buttons in a row using flexbox layout: 
+
+```html
+<div style="display: flex; flex-direction: row; margin-left: 80px; justify-content: first baseline">
+    <div class="Header01">
+        <h3>JumysTup</h3>
+    </div>
+    <div class="container">
+        <div style="display: flex; flex-direction: row;">
+            <button class="list-item">Home</button>
+            <button class="list-item">About Us</button>
+            <button class="list-item">How it works</button>
+            <button class="list-item1">Get Started</button>
+        </div>
+    </div>
+</div>
+```
+
+All buttons are now wrapped inside a container div that has `display: flex` and `flex-direction: row` set, which makes them display in a row.
